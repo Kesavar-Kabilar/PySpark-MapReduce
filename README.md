@@ -1,4 +1,4 @@
-# Spark MapReduce - Docker
+# PySpark MapReduce - Docker
 
 ## Overview 
 

@@ -2,10 +2,13 @@
 
 ## Overview 
 
-This project explores the analysis of Wikipedia datasets, including page titles and link structures, using big data technologies. 
+This project analyzes Wikipedia datasets, including page titles and link structures, using big data technologies.
 
-1. Docker containers provide a standardized development environment for consistent execution. 
-2. Apache Spark, a distributed computing system, is used to implement MapReduce algorithms for efficient data processing.
+*   **Big Data:** This assignment utilizes a substantial Wikipedia dataset, including page titles and link structures, representing a typical big data challenge.  Distributed processing techniques, like those provided by Spark, are essential for efficiently analyzing this volume of information.
+
+*   **Docker:** Docker containers provide a consistent and reproducible environment for both development and grading, crucial because the autograder runs offline.  All dependencies are pre-packaged within the Docker image, eliminating compatibility issues and ensuring consistent execution.
+
+*   **Apache Spark:** Apache Spark is the core distributed computing framework, enabling efficient data processing through MapReduce algorithms.  Spark's distributed computing capabilities, along with transformations like map, flatMap, and reduceByKey, are used to perform various data analysis tasks on the Wikipedia data.
 
 ## Big Data
 
